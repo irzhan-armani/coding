@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        StackGeneric<String> stack = new StackGeneric(0);
+        StackGeneric<String> stack = new StackGeneric<>(0);
         String input = "f(x)= x + 3";
         Scanner scan = new Scanner(input);
 
